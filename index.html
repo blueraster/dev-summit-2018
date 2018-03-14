@@ -39,10 +39,94 @@
 		<div class="reveal">
 
 			<div class="slides">
-				<section data-transition="convex">
-					<h3>Dev Summit 2018</h3>
+
+
+
+
+				<section data-transition="slide">
+					<h2>3D Apps with 2D Data</h2>
+					<ul>
+						<li>Render 2D data with 3D Symbology</li>
+					</ul>
+					<img src='images-jb/esri-3d-1.png'  />
+				</section>
+				<section data-transition="slide">
+					<h2>3D Apps with 2D Data</h2>
+					<ul>
+						<li>Utilize Esri's Elevation Service and a Feature Layer's <span class='code-span'>ElevationInfo</span> property.</li>
+					</ul>
+					<img src='images-jb/esri-3d-2.png'  />
+				</section>
+				<section data-transition="slide">
+					<h2>3D Apps with 2D Data - API Links</h2>
+					<ul>
+						<li><a href='https://developers.arcgis.com/javascript/latest/api-reference/esri-renderers-SimpleRenderer.html' target="_blank">Simple Renderer</a></li>
+						<li><a href='https://developers.arcgis.com/javascript/latest/api-reference/esri-renderers-SimpleRenderer.html#visualVariables' target="_blank">Visual Variables</a></li>
+						<li><a href='https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-WebStyleSymbol.html' target="_blank">Web Style Symbols</a></li>
+						<li><a href='https://developers.arcgis.com/javascript/latest/api-reference/esri-layers-ElevationLayer.html' target="_blank">Elevation Layers</a></li>
+						<li><p><a href="https://developers.arcgis.com/javascript/latest/guide/release-notes/#directlinemeasurement3d-widget">DirectLineMeasurement3D widget</a></p></li>
+					</ul>
+				</section>
+				<section data-transition="slide">
+					<h2>3D Apps with 2D Data - Samples</h2>
+					<ul>
+						<li><a href='https://developers.arcgis.com/javascript/latest/sample-code/visualization-trees-realistic/index.html' target="_blank">Trees Visualization</a></li>
+						<li><a href='https://ralucanicola.github.io/hiking-app/' target="_blank">Hiking Trails Swiss National Park</a></li>
+						<li><a href='http://ekenes.github.io/conferences/ds-2018/3d-viz-2d-data/demos/mtr/' target="_blank">Airspace Encroachment Analysis</a></li>
+						<li><a href='https://ralucanicola.github.io/JSAPI_demos/malta-contour-lines/' target="_blank">3D Elevation Contours</a></li>
+						<li><a href='https://github.com/ekenes/conferences/blob/master/ds-2018/3d-viz-2d-data/slides.pptx' target="_blank">Esri Presentation Link</a></li>
+					</ul>
 				</section>
 
+
+				<section data-transition="slide">
+					<h2>GeoAnalytics</h2>
+						<ul>
+							<li>Helps make sense of large or highly detailed datasets.</li>
+							<li>Improves processing time by distributing analysis across your GeoAnalytics server on multiple machines.</li>
+							<li>Add-on capability to ArcGIS Enterprise.</li>
+							<li>No ability to add custom tools yet.</li>
+						</ul>
+				</section>
+				<section data-transition="slide">
+					<h2>GeoAnalytics - Version 10.6</h2>
+					<ul>
+						<li><p>Calculate Field</p></li>
+						<li><p>Detect Incidents</p></li>
+						<li><p>Geocode Locations from Table</p></li>
+					</ul>
+				</section>
+				<section data-transition="slide">
+					<h2>GeoAnalytics - Links</h2>
+					<ul>
+						<li><a href='https://blogs.esri.com/esri/arcgis/2018/01/22/whats-new-in-arcgis-enterprise-10-6-geocode-locations-from-table-in-arcgis-geoanalytics-server/' target="_blank">Geocode locations from table</a></li>
+						<li><a href='https://pro.arcgis.com/en/pro-app/tool-reference/big-data-analytics/calculate-field-expressions.htm' target="_blank">Calculate Field Expressions</a></li>
+						<li><a href='https://pro.arcgis.com/en/pro-app/tool-reference/big-data-analytics/detect-incidents.htm' target="_blank">Detect Incidents</a></li>
+						<li><a href='https://blogs.esri.com/esri/arcgis/2018/01/17/whats-new-in-arcgis-enterprise-10-6-overview-pt-1/' target="_blank">Arcgis Enterprise 10.6 Release Overview</a></li>
+					</ul>
+				</section>
+
+				<section data-transition="slide">
+					<h2>Javascript API - Questions</h2>
+					<ul>
+						<li><p>BaseTileLayer - Currently does not support refresh.</p></li>
+						<li><p>IdentifyParameters - LayerDefinition no longer supported.</p></li>
+						<li><p>setRequestPreCallback on esriRequest no longer supported.</p></li>
+						<li><p>WebWorkers with JS API</p></li>
+						<li><p>Labeling GraphicsLayers when printing via the Print Widget</p></li>
+					</ul>
+				</section>
+
+				<section data-transition="slide">
+					<h2>Javascript API - Coming in Version 4.7</h2>
+					<ul>
+						<li><p>findLayerByName method - Added as wishlist item</p></li>
+						<li><p>Set definitionExpression on layer created from a local collection.</p></li>
+						<li><p>Hit Test bug fixes: polylines return results while polygons do not, not all of a feature's attributes are returned.</p></li>
+						<li><p>Print Tasks in 3D - Coming soon(ish)!</p></li>
+						<li><p>2D Labeling - Coming soon(ish)!</p></li>
+					</ul>
+				</section>
 
 			</div>
 
